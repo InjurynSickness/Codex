@@ -1,10 +1,13 @@
 main: cx.ajneb97.Codex
 version: 2.4.1
-name: Codex
+name: Compendium
 api-version: 1.13
 author: Ajneb97
 softdepend: [WorldGuard,WorldEdit,PlaceholderAPI,MythicMobs]
 
 commands:
-  codex:
-    description: Main command of Codex
+  compendium:
+    description: Main command of Compendium
+    usage: /<command>
+    permission: compendium.use
+    permission-message: You don't have permission to use this command.
